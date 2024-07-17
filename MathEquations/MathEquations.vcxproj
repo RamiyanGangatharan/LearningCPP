@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algebra.cpp" />
+    <ClCompile Include="BasicArithmetic.cpp" />
+    <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="mainMenu.cpp" />
+    <ClCompile Include="Trigonometry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicArithmetic.h" />
+    <ClInclude Include="Algebra.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="Trigonometry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
