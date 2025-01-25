@@ -39,7 +39,7 @@ int main()
 
         switch (input) {
             case 1:
-                std::cout << "Answer: " << add(a, b) << std::endl;
+                std::cout << "Answer: " << addition(a, b) << std::endl;
                 break;
             case 2:
                 std::cout << "Answer: " << subtract(a, b) << std::endl;
